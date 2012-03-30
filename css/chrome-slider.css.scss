@@ -1,0 +1,32 @@
+/*
+ * Chrome jQuery UI Slider Theme v0.1
+ * ----------------------------------
+ * Tom Abraham / tom@chathoth.com
+ *
+ * This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do What The Fuck You Want
+ * To Public License, Version 2, as published by Sam Hocevar. See
+ * http://sam.zoy.org/wtfpl/COPYING for more details.
+ */
+
+$handle_sz: 30px;
+$bg: rgba(0, 0, 0, 0.5);
+
+.chrome-slider.ui-slider { background: $bg; box-shadow: inset 0 0 2px black; border-radius: $handle_sz; }
+.chrome-slider.ui-slider-horizontal { height: $handle_sz + 2px; }
+.chrome-slider.ui-slider-horizontal .ui-slider-handle { margin-left: 0; }
+.chrome-slider.ui-slider .ui-slider-handle-helper { position: relative; margin: { top: 1px; left: 1px; right: $handle_sz + 1px; } } 
+.chrome-slider.ui-slider .ui-slider-handle {
+				top: 0;
+				cursor: default;
+				width: $handle_sz;
+				height: $handle_sz;
+				box-shadow: 0 0 1px black;
+				border: none { radius: $handle_sz; }
+				background: {
+								image: url('images/chrome-knob.png');
+								size: $handle_sz + 2px;
+								position: center;
+				}
+}

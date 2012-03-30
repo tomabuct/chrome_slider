@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/cupertino/jquery-ui-1.8.18.custom.css" media="all" rel="stylesheet" type="text/css">
+		<link href="css/chrome-slider.css" media="all" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script>
+		$(function() {
+			$("#slider").slider().find(".ui-slider-handle").wrap("<div class='ui-slider-handle-helper'></div>");
+		});
+	</script>
+</head>
+<body>
+	<div id="slider" class="chrome-slider"><div></div></div>
+</body>
+</html>
