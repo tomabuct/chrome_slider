@@ -13,7 +13,7 @@
 $handle_sz: 30px;
 $bg: rgba(0, 0, 0, 0.5);
 
-.chrome-slider.ui-slider { background: $bg; box-shadow: inset 0 0 2px black; border-radius: $handle_sz; }
+.chrome-slider.ui-slider { background: $bg; box-shadow: inset 0 0 2px black; border: #ddd solid 1px { radius: $handle_sz; } }
 .chrome-slider.ui-slider-horizontal { height: $handle_sz + 2px; }
 .chrome-slider.ui-slider-horizontal .ui-slider-handle { margin-left: 0; }
 .chrome-slider.ui-slider .ui-slider-handle-helper { position: relative; margin: { top: 1px; left: 1px; right: $handle_sz + 1px; } } 
